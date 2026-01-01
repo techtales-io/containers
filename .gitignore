@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# Allow files and directories
+!.github/
+!.github/**
+!.taskfiles/
+!.taskfiles/**
+!.editorconfig
+!.gitignore
+!.markdownlint.yaml
+!.mise.toml
+!.pre-commit-config.yaml
+!.prettierignore
+!.prettierrc.yaml
+!.yamllint.yaml
+!LICENSE
+!README.md
+!Taskfile.yaml
+
+# Ignore unnecessary files inside allowed directories
+# This should go after the allowed directories
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
